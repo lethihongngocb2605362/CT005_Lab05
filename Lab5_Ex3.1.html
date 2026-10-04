@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tìm hiểu những lợi ích của công nghệ số trong học tập qua infographic và video.">
+  <title>Lợi ích của công nghệ số trong học tập</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #19332f;
+      --muted: #526963;
+      --paper: #f4f7f2;
+      --surface: #ffffff;
+      --green: #176b58;
+      --line: #dce6dc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .page-header {
+      padding: 64px 24px 56px;
+      background: linear-gradient(125deg, #e3f1d4 0%, #f4f7f2 62%, #e4f0e9 100%);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .header-content,
+    main,
+    footer {
+      width: min(900px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--green);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.35rem);
+      line-height: 1.16;
+    }
+
+    .intro {
+      max-width: 700px;
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    main {
+      padding-block: 42px 56px;
+    }
+
+    section + section {
+      margin-top: 44px;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: 1.55rem;
+      line-height: 1.3;
+    }
+
+    .media-frame {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 8px 24px rgb(25 51 47 / 7%);
+    }
+
+    .infographic {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .video-frame {
+      aspect-ratio: 16 / 9;
+    }
+
+    .video-frame iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    footer {
+      padding: 22px 0 30px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .page-header {
+        padding: 44px 0 38px;
+      }
+
+      main {
+        padding-top: 32px;
+      }
+
+      section + section {
+        margin-top: 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-content">
+      <p class="eyebrow">Báo cáo học tập</p>
+      <h1>Lợi ích của công nghệ số trong học tập</h1>
+      <p class="intro">
+        Công nghệ số mở rộng cách chúng ta tiếp cận tri thức: người học có thể tìm tài liệu nhanh hơn,
+        học tập linh hoạt ở nhiều nơi và kết nối với giáo viên, bạn học qua các công cụ trực tuyến.
+        Khi được sử dụng hợp lý, công nghệ giúp việc học chủ động và phù hợp hơn với nhu cầu của mỗi người.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section aria-labelledby="infographic-title">
+      <h2 id="infographic-title">Infographic</h2>
+      <div class="media-frame">
+        <img
+          class="infographic"
+          src="c:\Users\DELL\Downloads\Infographic lợi ích công nghệ số trong học tập.png"
+          alt="Infographic về lợi ích của công nghệ số trong học tập"
+        >
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="video-title">
+                <h2 class="section-heading" id="video-title">Video giới thiệu</h2>
+                <div class="content">
+                    <div class="video-frame">
+                        <iframe src="https://www.youtube.com/embed/29JJI63SeLw?si=YcRCj-NNWggkxmgI" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <a class="video-link" href="https://youtu.be/29JJI63SeLw?si=YcRCj-NNWggkxmgI" target="_blank" rel="noopener noreferrer">
+                        Mở video trên YouTube
+                    </a>
+                </div>
+            </section>
+
+  </main>
+
+  <footer>
+    Nội dung văn bản tham khảo từ Google Gemini, hình ảnh từ Unsplash (Unsplash license). Video tạo bởi CapCut, tài liệu từ Pexels/FreeSound (CC0).
+  </footer>
+</body>
+</html>
